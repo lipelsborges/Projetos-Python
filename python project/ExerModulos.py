@@ -21,3 +21,12 @@ import random
 alu = ["Felipe", "Flavio", "Luiza", "Daiana"]
 random.shuffle(alu) #shuffle sorteia em ordem
 print(alu)
+
+#Exercicio 4
+
+import math
+co = float(input("Comprimento do cateto oposto: "))
+ca = float(input("Comprimento do cateto adicente: "))
+hi = math.hypot(co, ca)
+
+print("A hipotenusa vai medir {:.2f}".format(hi))
