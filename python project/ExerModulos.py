@@ -1,0 +1,23 @@
+from math import floor
+
+num = float (input("Digite um numero: "))
+print("O numero {} tem a parte inteira de {}". format(num, floor(num)))
+
+
+#Exercicio 2
+
+import random
+
+alu = ["Felipe", "Flavio", "Luiza", "Daiana"]
+sort =  random.choice(alu)
+
+print("O aluno sorteado foi {}". format (sort))
+
+
+#Exercicio 3 
+
+import random
+
+alu = ["Felipe", "Flavio", "Luiza", "Daiana"]
+random.shuffle(alu)
+print(alu)

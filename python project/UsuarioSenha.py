@@ -1,5 +1,5 @@
-usu = "lipelsborges"
-senha = 70123
+usu = "abcd"
+senha = 1234
 tentativa = 0
 
 usu1= str(input("Digite o Usuario: "))
