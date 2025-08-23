@@ -4,7 +4,7 @@ num = float (input("Digite um numero: "))
 print("O numero {} tem a parte inteira de {}". format(num, floor(num)))
 
 
-#Exercicio 2
+#Exercicio 2---------------------------------------------------
 
 import random
 
@@ -14,7 +14,7 @@ sort =  random.choice(alu) #choice sorteia um da lista
 print("O aluno sorteado foi {}". format (sort))
 
 
-#Exercicio 3 
+#Exercicio 3 ---------------------------------------------------
 
 import random
 
@@ -22,7 +22,7 @@ alu = ["Felipe", "Flavio", "Luiza", "Daiana"]
 random.shuffle(alu) #shuffle sorteia em ordem
 print(alu)
 
-#Exercicio 4
+#Exercicio 4------------------------------------------------------
 
 import math
 co = float(input("Comprimento do cateto oposto: "))
@@ -30,3 +30,17 @@ ca = float(input("Comprimento do cateto adicente: "))
 hi = math.hypot(co, ca)
 
 print("A hipotenusa vai medir {:.2f}".format(hi))
+
+#Exercicio 5 -----------------------------------------------------
+
+import math
+
+an = float(input("Digite o ângulo que você deseja: "))
+seno = math.sin(math.radians(an))
+print("O ângulo de {} tem o SENO de {:.2f}".format(an, seno))
+
+cosseno = math.sin(math.radians(an))
+print("O ângulo de {} tem o COSSENO de {:.2f}".format(an, cosseno))
+
+tangente = math.sin(math.radians(an))
+print("O ângulo de {} tem a TANGENTE de {:.2f}".format (an, tangente))
