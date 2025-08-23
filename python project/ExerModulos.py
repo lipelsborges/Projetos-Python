@@ -9,7 +9,7 @@ print("O numero {} tem a parte inteira de {}". format(num, floor(num)))
 import random
 
 alu = ["Felipe", "Flavio", "Luiza", "Daiana"]
-sort =  random.choice(alu)
+sort =  random.choice(alu) #choice sorteia um da lista
 
 print("O aluno sorteado foi {}". format (sort))
 
@@ -19,5 +19,5 @@ print("O aluno sorteado foi {}". format (sort))
 import random
 
 alu = ["Felipe", "Flavio", "Luiza", "Daiana"]
-random.shuffle(alu)
+random.shuffle(alu) #shuffle sorteia em ordem
 print(alu)
