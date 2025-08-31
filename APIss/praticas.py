@@ -15,6 +15,3 @@ def buscar(tipo, nome):
     if "data" not in dados or len(dados["data"]) == 0:
         print("Nenhum resultado encontrado.")
     return
-
-
-aaaaaaaaaaa
