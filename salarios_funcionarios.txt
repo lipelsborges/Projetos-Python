@@ -1,0 +1,8 @@
+Novo salario do Felipe é 1100.00
+Novo salario do Daiana é 5500.00
+Novo salario do Luiza é 7700.00
+Novo salario do Flavio é 935.00
+Novo salario do Felipe é 1100.00
+Novo salario do Daiana é 5500.00
+Novo salario do Luiza é 7700.00
+Novo salario do Flavio é 935.00
